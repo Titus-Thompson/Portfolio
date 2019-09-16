@@ -1,0 +1,789 @@
+{
+	"beat": {
+		"part": 1,
+		"beat": 1,
+		"majorQ": [
+			{
+				"text": [
+					"Describe what happens at the beginning of the play. How do we know the Montagues and Capulets hate each other?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"Describe what happens at the beginning of the play. How do we know the Montagues and Capulets hate each other?"
+						],
+						"topic": [
+							null
+						],
+						"answer": [
+							[
+								1101,
+								1102,
+								1103,
+								1107,
+								1108
+							],
+							[
+								1101,
+								1102,
+								1104,
+								1105,
+								1108
+							],
+							[
+								1101,
+								1108,
+								1109,
+								1113,
+								1114
+							]
+						],
+						"neighborhood": [
+							[
+								1101,
+								1102,
+								1103,
+								1104,
+								1105,
+								1106,
+								1107,
+								1108,
+								1109,
+								1110,
+								1111,
+								1112,
+								1113,
+								1114
+							]
+						],
+						"type": 1,
+						"response": "A fight resurfaces beacuse there is an ancient grudge between the two families."
+					}
+				]
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"Who starts the fight and who else gets involved?"
+				],
+				"topic": [
+					null
+				],
+				"answer": [
+					[
+						1108,
+						1111,
+						1114
+					]
+				],
+				"neighborhood": [
+					[
+						1108,
+						1109,
+						1110,
+						1111,
+						1114
+					]
+				],
+				"type": 2,
+				"response": "The fight starts with the servants and creates a conflict between Benvolio and Tybalt."
+			},
+			{
+				"text": [
+					"Do Montague and Capulet themselves support the fighting?"
+				],
+				"topic": [
+					"Montague and Capulet"
+				],
+				"answer": [
+					[
+						1116,
+						1118,
+						1119
+					]
+				],
+				"neighborhood": [
+					[
+						1115,
+						1116,
+						1118,
+						1119
+					]
+				],
+				"type": 2
+			},
+			{
+				"text": [
+					"How does the Prince respond to the fighting?"
+				],
+				"topic": [
+					"the Prince"
+				],
+				"answer": [
+					[
+						1117,
+						1118
+					]
+				],
+				"neighborhood": [
+					[
+						1117,
+						1118,
+						1119
+					]
+				],
+				"type": 2
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Gregory and Sampson talk about how much they don't like the Montagues"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Gregory and Sampson"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					1102
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Abram, a Montague, enters with his servingmen"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Abram"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					1101
+				],
+				"b5": [
+					1103
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Sampson draws his weapon at Abram"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Sampson"
+				],
+				"b2": [
+					"Abram"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1102
+				],
+				"b5": [
+					1107
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Gregory and Sampson want to make Abram angry"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Gregory and Sampson"
+				],
+				"b2": [
+					"Abram"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1103
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Sampson bites his thumb and Gregory frowns at Abram"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Gregory and Sampson"
+				],
+				"b2": [
+					"Abram"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1103
+				],
+				"b5": [
+					1104
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Gregory and Sampson hope to make Abram start the fight"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Gregory and Sampson"
+				],
+				"b2": [
+					"Abram"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1103
+				],
+				"b5": [
+					1104
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Sampson tells Abram and his men to draw their swords"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Sampson"
+				],
+				"b2": [
+					"Abram"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1103
+				],
+				"b5": [
+					1108
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"a fight starts between Gregory and Sampson on one side and Abram and his men on the other"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					""
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					1107
+				],
+				"b5": [
+					1108
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio comes in and tries to stop the fight"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					1108
+				],
+				"b5": [
+					1110
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt enters and puts shame on Benvolio for getting involved in servants' fights"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					1109
+				],
+				"b5": [
+					1112
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt tries to fight Benvolio, who has his sword drawn"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					1110
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio says he just wants to keep the peace"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					8
+				],
+				"b4": [
+					1111
+				],
+				"b5": [
+					1113
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt says he hates all Montagues and the word, \"peace\""
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					1112
+				],
+				"b5": [
+					1114
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt fights Benvolio"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					10
+				],
+				"b4": [
+					1113
+				],
+				"b5": [
+					1115
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Montague and Capulet hear about the fighting"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Montague and Capulet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					11
+				],
+				"b4": [
+					1114
+				],
+				"b5": [
+					1116
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Montague and Capulet want to get involved, but Lady Capulet and Lady Montague tell them not to"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Montague and Capulet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					12
+				],
+				"b4": [
+					1115
+				],
+				"b5": [
+					1117
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Prince hears about the fighting and is very angry"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Prince"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					13
+				],
+				"b4": [
+					1116
+				],
+				"b5": [
+					1118
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Prince threatens Montague's and Capulet's lives if there is ever more fighting between their families"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Prince"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					14
+				],
+				"b4": [
+					1117
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"now Montague and Capulet have a good reason to make sure nobody fights again"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Montague and Capulet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					14
+				],
+				"b4": [
+					1118
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

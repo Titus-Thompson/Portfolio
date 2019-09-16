@@ -1,0 +1,744 @@
+{
+  "beat": {
+    "part": 4,
+    "beat": 1,
+    "majorQ": [
+      {
+        "text": [
+          "Why does Romeo visit Friar Laurence the morning after the masque?"
+        ],
+        "answers": [
+          {
+            "gen": true,
+            "text": [
+              "Why does Romeo visit Friar Laurence the morning after the masque?"
+            ],
+            "topic": [
+              null
+            ],
+            "answer": [
+              [
+                4107,
+                4108,
+                4112,
+                4114
+              ]
+            ],
+            "neighborhood": [
+              [
+                4106,
+                4107,
+                4108,
+                4111,
+                4112,
+                4113,
+                4114
+              ]
+            ],
+            "type": 1
+          }
+        ]
+      }
+    ],
+    "minorQ": [
+      {
+        "text": [
+          "What is Friar Laurence doing when Romeo arrives?"
+        ],
+        "topic": [
+          "Friar Laurence"
+        ],
+        "answer": [
+          [
+            4101,
+            4102,
+            4103
+          ],
+          [
+            4101,
+            4102,
+            4104
+          ],
+          [
+            4101,
+            4102,
+            4105
+          ]
+        ],
+        "neighborhood": [
+          [
+            4101,
+            4102,
+            4113,
+            4104,
+            4105
+          ]
+        ],
+        "type": 2
+      },
+      {
+        "text": [
+          "What do Romeo and Friar Laurence talk about?"
+        ],
+        "topic": [
+          null
+        ],
+        "answer": [
+          [
+            4110,
+            4112
+          ]
+        ],
+        "neighborhood": [
+          [
+            4108,
+            4109,
+            4110,
+            4111,
+            4112,
+            4113
+          ]
+        ],
+        "type": 2
+      },
+      {
+        "text": [
+          "Why do you think Friar Laurence agrees to help Romeo?"
+        ],
+        "topic": [
+          "Friar Laurence"
+        ],
+        "answer": [
+          [
+            4115,
+            4118
+          ]
+        ],
+        "neighborhood": [
+          [
+            4114,
+            4115,
+            4116,
+            4117,
+            4118
+          ]
+        ],
+        "type": 2
+      }
+    ],
+    "bits": [
+      {
+        "text": [
+          "Friar Laurence is alone, working with his plants"
+        ],
+        "types": [
+          [
+            "A0+"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          1
+        ],
+        "b4": [
+          null
+        ],
+        "b5": [
+          4106
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence is harvesting weeds and flowers"
+        ],
+        "types": [
+          [
+            "A1"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          1
+        ],
+        "b4": [
+          4101
+        ],
+        "b5": [
+          null
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence says people and plants have good and evil inside of them"
+        ],
+        "types": [
+          [
+            "A3"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          1
+        ],
+        "b4": [
+          4101
+        ],
+        "b5": [
+          4102
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence talks about poison and medicine in plants"
+        ],
+        "types": [
+          [
+            "A3"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          1
+        ],
+        "b4": [
+          4101
+        ],
+        "b5": [
+          4102
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence learns lessons from nature"
+        ],
+        "types": [
+          [
+            "A4"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          1
+        ],
+        "b4": [
+          4101
+        ],
+        "b5": [
+          4102
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Romeo goes to see Friar Laurence early in the morning"
+        ],
+        "types": [
+          [
+            "A0+"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Romeo"
+        ],
+        "b2": [
+          "Friar Laurence"
+        ],
+        "b3": [
+          2
+        ],
+        "b4": [
+          4101
+        ],
+        "b5": [
+          4107
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Romeo explains to Friar Laurence that he wants to mary Capulet's daughter"
+        ],
+        "types": [
+          [
+            "A0"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Romeo"
+        ],
+        "b2": [
+          "Friar Laurence"
+        ],
+        "b3": [
+          3
+        ],
+        "b4": [
+          4106
+        ],
+        "b5": [
+          4108
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence is surprised Romeo already moved on from Rosaline"
+        ],
+        "types": [
+          [
+            "A0"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          "Rosaline"
+        ],
+        "b3": [
+          4
+        ],
+        "b4": [
+          4107
+        ],
+        "b5": [
+          4111
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence wants Romeo to see how foolish he is about love"
+        ],
+        "types": [
+          [
+            "A1"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          "Romeo"
+        ],
+        "b3": [
+          4
+        ],
+        "b4": [
+          4108
+        ],
+        "b5": [
+          null
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence says young men love with their eyes, not their hearts"
+        ],
+        "types": [
+          [
+            "A3"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          4
+        ],
+        "b4": [
+          4108
+        ],
+        "b5": [
+          4109
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Romeo tells Friar Laurence about Rosaline and Juliet"
+        ],
+        "types": [
+          [
+            "A0"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Romeo"
+        ],
+        "b2": [
+          "Rosaline and Juliet"
+        ],
+        "b3": [
+          5
+        ],
+        "b4": [
+          4108
+        ],
+        "b5": [
+          4114
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Romeo has to convince Friar Laurence that this time falling in love is different"
+        ],
+        "types": [
+          [
+            "A1"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Romeo"
+        ],
+        "b2": [
+          "Friar Laurence"
+        ],
+        "b3": [
+          5
+        ],
+        "b4": [
+          4111
+        ],
+        "b5": [
+          4113
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Romeo explains that Juliet loves him back, not like Rosaline"
+        ],
+        "types": [
+          [
+            "A3"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Romeo"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          5
+        ],
+        "b4": [
+          4111
+        ],
+        "b5": [
+          4112
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence agrees to help Romeo even though he has doubts"
+        ],
+        "types": [
+          [
+            "A0"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          "Romeo"
+        ],
+        "b3": [
+          6
+        ],
+        "b4": [
+          4111
+        ],
+        "b5": [
+          4115
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence wants to bring peace to the two families"
+        ],
+        "types": [
+          [
+            "A1"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          6
+        ],
+        "b4": [
+          4114
+        ],
+        "b5": [
+          null
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence probably would not help Romeo if the two families did not have a conflict"
+        ],
+        "types": [
+          [
+            "A2"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          6
+        ],
+        "b4": [
+          4114
+        ],
+        "b5": [
+          4115
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence is willing to let Romeo and Juliet get married secretly"
+        ],
+        "types": [
+          [
+            "A3"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          "Romeo and Juliet"
+        ],
+        "b3": [
+          6
+        ],
+        "b4": [
+          4114
+        ],
+        "b5": [
+          4115
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      },
+      {
+        "text": [
+          "Friar Laurence will let them get married for the good of everyone"
+        ],
+        "types": [
+          [
+            "A4"
+          ]
+        ],
+        "b0": [
+          ""
+        ],
+        "b1": [
+          "Friar Laurence"
+        ],
+        "b2": [
+          ""
+        ],
+        "b3": [
+          6
+        ],
+        "b4": [
+          4114
+        ],
+        "b5": [
+          4115
+        ],
+        "b6": [
+          null
+        ],
+        "trigger": [
+          null
+        ]
+      }
+    ]
+  }
+}

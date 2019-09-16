@@ -1,0 +1,88 @@
+{
+	"majorQuestions": [
+		{
+			"text": [
+				"Describe what happens at the beginning of the play. How do we know the Montagues and Capulets hate each other?"
+			],
+			"type": 1,
+			"part": 1,
+			"beat": 1
+		},
+		{
+			"text": [
+				"Why is Lady Montague worried about Romeo? What's troubling him?"
+			],
+			"type": 1,
+			"part": 1,
+			"beat": 2
+		},
+		{
+			"text": [
+				"What's troubling Juliet at the beginning of the play?"
+			],
+			"type": 1,
+			"part": 1,
+			"beat": 3
+		},
+		{
+			"text": [
+				"How does Romeo get invited to the party at the Capulets'?"
+			],
+			"type": 1,
+			"part": 2,
+			"beat": 1
+		},
+		{
+			"text": [
+				"Why do you think Romeo attends the party at the Capulets'?"
+			],
+			"type": 1,
+			"part": 2,
+			"beat": 2
+		},
+		{
+			"text": [
+				"What do Romeo, Benvolio & Mercutio talk about on the way to the party?"
+			],
+			"type": 1,
+			"part": 2,
+			"beat": 3
+		},
+		{
+			"text": [
+				"How do the Capulets respond to Romeo's intrusion?"
+			],
+			"type": 1,
+			"part": 2,
+			"beat": 4
+		},
+		{
+			"text": [
+				"What happens when Romeo and Juliet first meet?"
+			],
+			"type": 1,
+			"part": 2,
+			"beat": 5
+		}
+	],
+	"transitionQuestions": [
+		{
+			"text": [
+				"Let's take a look at what Romeo says, (1.4.104)"
+			],
+			"type": 3,
+			"label": "H",
+			"part": 2,
+			"beat": 3
+		},
+		{
+			"text": [
+				"Let's take a look at what Juliet says, (1.5.136)"
+			],
+			"type": 3,
+			"label": "F",
+			"part": 2,
+			"beat": 5
+		}
+	]
+}

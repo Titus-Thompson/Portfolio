@@ -1,0 +1,516 @@
+{
+	"beat": {
+		"part": 2,
+		"beat": 4,
+		"majorQ": [
+			{
+				"text": [
+					"How do the Capulets respond to Romeo's intrusion?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"How do the Capulets respond to Romeo's intrusion?"
+						],
+						"topic": [
+							null
+						],
+						"answer": [
+							[
+								2404,
+								2407,
+								2410
+							],
+							[
+								2404,
+								2407,
+								2410,
+								2411
+							],
+							[
+								2405,
+								2407,
+								2410
+							],
+							[
+								2407,
+								2408,
+								2410
+							],
+							[
+								2407,
+								2408,
+								2410,
+								2411
+							]
+						],
+						"neighborhood": [
+							[
+								2403,
+								2404,
+								2405,
+								2406,
+								2407,
+								2408,
+								2409,
+								2410,
+								2411
+							]
+						],
+						"type": 1,
+						"response": "The Capulets may not be happy to see Romeo, but they have good reason to be polite."
+					}
+				],
+				"response": null
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"What happens just when Romeo, Benvolio & Mercutio arrive at the party?"
+				],
+				"topic": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"answer": [
+					[
+						2402
+					]
+				],
+				"neighborhood": [
+					[
+						2401,
+						2402
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"Why is Capulet friendly toward Romeo?"
+				],
+				"topic": [
+					"Capulet"
+				],
+				"answer": [
+					[
+						2408,
+						2409
+					]
+				],
+				"neighborhood": [
+					[
+						2408,
+						2409
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What is Tybalt's attitude toward Romeo, Benvolio & Mercutio's intrusion?"
+				],
+				"topic": [
+					"Tybalt"
+				],
+				"answer": [
+					[
+						2406
+					]
+				],
+				"neighborhood": [
+					[
+						2406
+					]
+				],
+				"type": 2,
+				"response": null
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio arrive at the party"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					" at the party"
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2402
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo falls in love with a pretty girl right away"
+				],
+				"types": [
+					[
+						"A0.",
+						"A7"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2401
+				],
+				"b5": [
+					2403
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt recognizes Romeo because his voice sounds like a Montague",
+					"Tybalt notices how Romeo's voice sounds like an enemy's voice"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2402
+				],
+				"b5": [
+					2407
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt wants Romeo, Benvolio & Mercutio to be punished",
+					"Tybalt wants to start a fight with Romeo, Benvolio & Mercutio"
+				],
+				"types": [
+					[
+						"A1",
+						"A8"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2403
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt decides to tell Capulet about the intruders"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Capulet"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2403
+				],
+				"b5": [
+					2404
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt hates Romeo, Benvolio & Mercutio because he's a Capulet and they're Montagues"
+				],
+				"types": [
+					[
+						"A7"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2404
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet tells Tybalt to leave Romeo, Benvolio & Mercutio alone"
+				],
+				"types": [
+					[
+						"A0",
+						"A8"
+					]
+				],
+				"b0": [
+					" to leave Romeo, Benvolio & Mercutio alone"
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Tybalt"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2403
+				],
+				"b5": [
+					2410
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet probably wants to protect himself"
+				],
+				"types": [
+					[
+						"A1",
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2407
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					2409
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Prince promised to kill Capulet if his men fight again"
+				],
+				"types": [
+					[
+						"B61"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Prince"
+				],
+				"b2": [
+					"Capulet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2408
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt agrees to leave Romeo, Benvolio & Mercutio alone"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					" to leave Romeo, Benvolio & Mercutio alone"
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2407
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Tybalt will remember the intruders and stay angry"
+				],
+				"types": [
+					[
+						"A7"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Tybalt"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2410
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

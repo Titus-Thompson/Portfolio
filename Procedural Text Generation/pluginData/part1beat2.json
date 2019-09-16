@@ -1,0 +1,395 @@
+{
+	"beat": {
+		"part": 1,
+		"beat": 2,
+		"majorQ": [
+			{
+				"text": [
+					"Why is Lady Montague worried about Romeo? What's troubling him?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"Why is Lady Montague worried about Romeo? What's troubling him?"
+						],
+						"topic": [
+							"Lady Montague"
+						],
+						"answer": [
+							[
+								1201,
+								1204
+							]
+						],
+						"neighborhood": [
+							[
+								1201,
+								1202,
+								1203,
+								1204
+							]
+						],
+						"type": 1,
+						"response": "Our first impression of Romeo is as a hopeless romantic."
+					}
+				]
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"Who is Romeo in love with?"
+				],
+				"topic": [
+					"Romeo"
+				],
+				"answer": [
+					[
+						1206
+					]
+				],
+				"neighborhood": [
+					[
+						1205,
+						1206
+					]
+				],
+				"type": 2
+			},
+			{
+				"text": [
+					"What advice does Benvolio give Romeo to cheer him up?"
+				],
+				"topic": [
+					"Benvolio"
+				],
+				"answer": [
+					[
+						1207
+					],
+					[
+						1207,
+						1208
+					]
+				],
+				"neighborhood": [
+					[
+						1207,
+						1208,
+						1209
+					]
+				],
+				"type": 2
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Lady Montague says Romeo has been hiding away for a while"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Montague"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					1202
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Montague leaves it to Benvolio to find out why Romeo is bothered"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Montague"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					1201
+				],
+				"b5": [
+					1203
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio finds Romeo and talks to him"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1202
+				],
+				"b5": [
+					1204
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo tells Benvolio that he has no favor with the girl he loves"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1203
+				],
+				"b5": [
+					1205
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo puts off saying who he loves, but describes her as beautiful, smart, and pure"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					1204
+				],
+				"b5": [
+					1206
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo says he loves Rosaline, but she has promised to be pure and not marry anybody"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Rosaline"
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					1205
+				],
+				"b5": [
+					1207
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio suggests Romeo forget about Rosaline and see other beautiful girls"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Rosaline"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					1206
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio wants to help Romeo move on"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					1207
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo's high ideas about Rosaline are getting in the way of his happiness"
+				],
+				"types": [
+					[
+						"A2"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					""
+				],
+				"b2": [
+					"Rosaline"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					1207
+				],
+				"b5": [
+					1208
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

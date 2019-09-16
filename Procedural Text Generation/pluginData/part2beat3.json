@@ -1,0 +1,855 @@
+{
+	"beat": {
+		"part": 2,
+		"beat": 3,
+		"majorQ": [
+			{
+				"text": [
+					"What do Romeo, Benvolio & Mercutio talk about on the way to the party?"
+				],
+				"answers": [
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Romeo is still depressed about Rosaline, and complains about love sickness.",
+								"[H] Mercutio talks about a fairy who gives people dreams."
+							]
+						],
+						"data": [
+							[
+								2318,
+								2307,
+								2314,
+								2315
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] They talk about dreams and visions.",
+								"[H] Mercutio tells a story about a fairy."
+							]
+						],
+						"data": [
+							[
+								2318,
+								2313,
+								2314
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] They wonder what to do when they get there. Maybe they should appologize.",
+								"[H] They decide their masks will keep them safe from trouble."
+							]
+						],
+						"data": [
+							[
+								2303,
+								2304,
+								2305,
+								2306
+							]
+						]
+					}
+				],
+				"response": "In this scene we can see the way Romeo, Benvolio & Mercutio's personalities play off each other."
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"What's on Romeo's mind on the way to the party?"
+				],
+				"topic": [
+					"Romeo"
+				],
+				"answer": [
+					[
+						2319,
+						2309
+					],
+					[
+						2319,
+						2320
+					]
+				],
+				"neighborhood": [
+					[
+						2319,
+						2320,
+						2309,
+						2307,
+						2306
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What is Mercutio's attitude toward dreams?"
+				],
+				"topic": [
+					"Mercutio"
+				],
+				"answer": [
+					[
+						2316
+					],
+					[
+						2316,
+						2317
+					]
+				],
+				"neighborhood": [
+					[
+						2316,
+						2317
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"How does Mercutio respond to Romeo's sadness and gloom?"
+				],
+				"topic": [
+					"Mercutio"
+				],
+				"answer": [
+					[
+						2310
+					]
+				],
+				"neighborhood": [
+					[
+						2310,
+						2311,
+						2312
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What are Romeo, Benvolio & Mercutio worried about?"
+				],
+				"topic": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"answer": [
+					[
+						2302
+					],
+					[
+						2303
+					]
+				],
+				"neighborhood": [
+					[
+						2302,
+						2303,
+						2304,
+						2305,
+						2306
+					]
+				],
+				"type": 2,
+				"response": null
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio go to the party wearking masks"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					" to the party"
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2306
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio don't want to get noticed or start a fight"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2301
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio don't want to be rude for suddenly showing up to the party"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					" to the party"
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2301
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio consider appologizing but decide not to"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2301
+				],
+				"b5": [
+					2303
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio think nobody will notice them with their masks on"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2301
+				],
+				"b5": [
+					2302
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio could be in big trouble if they get discovered"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2305
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Romeo keeps complaining about love sickness"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2301
+				],
+				"b5": [
+					2310
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo describes love as rough, rude, and prickly"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2307
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo has dark ideas"
+				],
+				"types": [
+					[
+						"A5"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2307
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Mercutio tells Romeo to fight Cupid"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2307
+				],
+				"b5": [
+					2313
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Mercutio wants Romeo to have power over pain",
+					"Mercutio wants Romeo to control his mood"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2310
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Mercutio hopes to cure Romeo's depression and give him energy"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2310
+				],
+				"b5": [
+					2311
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo tells everybody he had a dream"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2310
+				],
+				"b5": [
+					2314
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Mercutio tells all about Queen Mab the Fairy"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					"Queen Mab the Fairy"
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2313
+				],
+				"b5": [
+					2316
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Queen Mab gives people dreams and visions"
+				],
+				"types": [
+					[
+						"B4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					"Queen Mab the Fairy"
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2314
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Mercutio says dreams are fantasies that don't matter"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					2314
+				],
+				"b5": [
+					2319
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Maybe Mercutio has dreams that never came true"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					2316
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo, Benvolio & Mercutio talk about dreams on their way to the party"
+				],
+				"types": [
+					[
+						"A6"
+					]
+				],
+				"b0": [
+					" to the party"
+				],
+				"b1": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2313
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Romeo reads a bad fortune in the stars"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2316
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			},
+			{
+				"text": [
+					"Romeo is really scared of something",
+					"Romeo is suddenly really afraid of death"
+				],
+				"types": [
+					[
+						"A5"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2319
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"H"
+				]
+			}
+		]
+	}
+}

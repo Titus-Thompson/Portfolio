@@ -1,0 +1,883 @@
+{
+	"beat": {
+		"part": 2,
+		"beat": 5,
+		"majorQ": [
+			{
+				"text": [
+					"What happens when Romeo and Juliet first meet?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"How do Romeo and Juliet first meet?"
+						],
+						"topic": [
+							"Romeo and Juliet"
+						],
+						"answer": [
+							[
+								2504,
+								2505,
+								2506
+							],
+							[
+								2501,
+								2503
+							],
+							[
+								2502,
+								2504,
+								2507
+							]
+						],
+						"neighborhood": [
+							[
+								2501,
+								2502,
+								2503,
+								2504,
+								2505,
+								2506,
+								2507,
+								2508
+							]
+						],
+						"type": 1,
+						"response": "Juliet wishes she had known who Romeo was, while Romeo knew quite well what he was getting into."
+					},
+					{
+						"gen": true,
+						"text": [
+							"How do Romeo and Juliet learn each other's identity?"
+						],
+						"topic": [
+							"Romeo and Juliet"
+						],
+						"answer": [
+							[
+								2510,
+								2517,
+								2520
+							],
+							[
+								2510,
+								2517
+							],
+							[
+								2510,
+								2511,
+								2519
+							]
+						],
+						"neighborhood": [
+							[
+								2510,
+								2511,
+								2517,
+								2518,
+								2519,
+								2520
+							]
+						],
+						"type": 1,
+						"response": "Juliet wishes she had known who Romeo was, while Romeo knew quite well what he was getting into."
+					}
+				],
+				"response": null
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"How does Capulet react to Romeo at the party?"
+				],
+				"topic": [
+					"Capulet"
+				],
+				"answer": [
+					[
+						2513,
+						2514,
+						2516
+					],
+					[
+						2513,
+						2514
+					]
+				],
+				"neighborhood": [
+					[
+						2511,
+						2513,
+						2514,
+						2515,
+						2516
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"How do Romeo and Juliet first meet?"
+				],
+				"topic": [
+					"Romeo and Juliet"
+				],
+				"answer": [
+					[
+						2504,
+						2505,
+						2506
+					],
+					[
+						2501,
+						2503
+					],
+					[
+						2502,
+						2504,
+						2507
+					]
+				],
+				"neighborhood": [
+					[
+						2501,
+						2502,
+						2503,
+						2504,
+						2505,
+						2506,
+						2507,
+						2508
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"How do Romeo and Juliet learn each other's identity?"
+				],
+				"topic": [
+					"Romeo and Juliet"
+				],
+				"answer": [
+					[
+						2510,
+						2517,
+						2520
+					],
+					[
+						2510,
+						2517
+					],
+					[
+						2510,
+						2511,
+						2519
+					]
+				],
+				"neighborhood": [
+					[
+						2510,
+						2511,
+						2517,
+						2518,
+						2519,
+						2520
+					]
+				],
+				"type": 2,
+				"response": null
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo and Juliet flirt with each other and use beautiful language"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2504
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and Juliet try to prove their love to each other"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2501
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and Juliet talk about love like religion"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					2501
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and Juliet kiss before they even know each other's names"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2501
+				],
+				"b5": [
+					2505
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Juliet says, \"You kiss by the book\""
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2504
+				],
+				"b5": [
+					2507
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"I guess that means he needed some help",
+					"I guess that means he's not too creative"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2505
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse calls Juliet away from Romeo"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2505
+				],
+				"b5": [
+					2509
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo never told Juliet something really important"
+				],
+				"types": [
+					[
+						"A6"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2507
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Maybe Juliet wouldn't have loved Romeo if she had known who he is"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2508
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Romeo learns that Juliet is a Capulet from the Nurse"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2507
+				],
+				"b5": [
+					2511
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio says it's time to go home"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					2510
+				],
+				"b5": [
+					2513
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio tries to do the right thing"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					2511
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet politely says, \"good night\" as Romeo, Benvolio & Mercutio leave"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Romeo, Benvolio & Mercutio"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2511
+				],
+				"b5": [
+					2517
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet wouldn't be so nice if he knew Romeo kissed Juliet"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2513
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					2515
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet really wants Paris to marry his daughter"
+				],
+				"types": [
+					[
+						"B61"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2514
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and Juliet might get in big trouble"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2515
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"the Nurse finds out Romeo is a Montague, and tells Juliet"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					8
+				],
+				"b4": [
+					2513
+				],
+				"b5": [
+					2518
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Juliet becomes scared and worried"
+				],
+				"types": [
+					[
+						"A0.",
+						"A5"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					2517
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					2520
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Juliet regrets falling in love with Romeo"
+				],
+				"types": [
+					[
+						"A5",
+						"A7"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					2518
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			},
+			{
+				"text": [
+					"Juliet never knew Romeo was an enemy until too late"
+				],
+				"types": [
+					[
+						"B61"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2518
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					"F"
+				]
+			}
+		]
+	}
+}

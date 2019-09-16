@@ -1,0 +1,588 @@
+{
+	"beat": {
+		"part": 2,
+		"beat": 2,
+		"majorQ": [
+			{
+				"text": [
+					"Why do you think Romeo attends the party at the Capulet's?"
+				],
+				"answers": [
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Benvolio convinces Romeo to go.",
+								"[H] Benvolio wants to help Romeo love someone new."
+							]
+						],
+						"data": [
+							[
+								2203,
+								2211,
+								2204
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Romeo and Benvolio talk about it, and agree to go.",
+								"[H] Romeo has to go to forget about Rosaline."
+							]
+						],
+						"data": [
+							[
+								2203,
+								2211
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Romeo loved Rosaline, and she was going to attend.",
+								"[H] Benvolio wants Romeo to go fall in love with someone new."
+							]
+						],
+						"data": [
+							[
+								2202,
+								2212,
+								2203,
+								2204
+							]
+						]
+					}
+				],
+				"response": "There's really only one thing on Romeo's mind: girls."
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"Why do Romeo and Benvolio argue on the way to the party?"
+				],
+				"topic": [
+					"Romeo and Benvolio"
+				],
+				"answer": [
+					[
+						2205,
+						2206
+					],
+					[
+						2208,
+						2209
+					]
+				],
+				"neighborhood": [
+					[
+						2203,
+						2205,
+						2206,
+						2208,
+						2209,
+						2210
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What does Romeo expect will happen at the party?"
+				],
+				"topic": [
+					"Romeo"
+				],
+				"answer": [
+					[
+						2213
+					]
+				],
+				"neighborhood": [
+					[
+						2211,
+						2212,
+						2213
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What does Benvolio hope will happen to Romeo at the party?"
+				],
+				"topic": [
+					"Benvolio"
+				],
+				"answer": [
+					[
+						2205,
+						2206
+					]
+				],
+				"neighborhood": [
+					[
+						2204,
+						2205,
+						2206
+					]
+				],
+				"type": 2,
+				"response": null
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo and Benvolio talk about attending the party"
+				],
+				"types": [
+					[
+						"A0+",
+						"A6",
+						"B62"
+					]
+				],
+				"b0": [
+					" the party"
+				],
+				"b1": [
+					"Romeo and Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2203
+				],
+				"b6": [
+					2202
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Rosaline's name was on the list"
+				],
+				"types": [
+					[
+						"B61"
+					]
+				],
+				"b0": [
+					"the list"
+				],
+				"b1": [
+					""
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2201
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio tries to convince Romeo to attend the party"
+				],
+				"types": [
+					[
+						"A0-",
+						"A8"
+					]
+				],
+				"b0": [
+					" the party"
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2201
+				],
+				"b5": [
+					2207
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio wants Romeo to compare Rosaline to other girls"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2203
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo is stubborn about liking Rosaline"
+				],
+				"types": [
+					[
+						"A2"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Rosaline"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2103
+				],
+				"b5": [
+					2204
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio hopes Romeo will find other girls even more beautiful"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2203
+				],
+				"b5": [
+					2204
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo argues with Benvolio"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2203
+				],
+				"b5": [
+					2211
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo doesn't want his own heart to move on"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2207
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo compares falling in love with someone else to dishonesty"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2207
+				],
+				"b5": [
+					2208
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo insists that Benvolio cannot help him feel joy"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2207
+				],
+				"b5": [
+					2208
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and Benvolio agree to attend the party"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					" the party"
+				],
+				"b1": [
+					"Romeo and Benvolio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2207
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo wants to see Rosaline again"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Rosaline"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2211
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo expects he won't find another girl he likes"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2211
+				],
+				"b5": [
+					2212
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

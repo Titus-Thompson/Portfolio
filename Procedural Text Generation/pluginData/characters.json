@@ -1,0 +1,193 @@
+{
+	"characters": {
+		"Romeo": {
+			"name": "Romeo",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Juliet": {
+			"name": "Juliet",
+			"pronoun": [
+				"she",
+				"her"
+			]
+		},
+		"Capulet": {
+			"name": "Capulet",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Lady Capulet": {
+			"name": "Lady Capulet",
+			"pronoun": [
+				"she",
+				"her"
+			]
+		},
+		"Lady Montague": {
+			"name": "Lady Montague",
+			"pronoun": [
+				"she",
+				"her"
+			]
+		},
+		"the Nurse": {
+			"name": "the Nurse",
+			"pronoun": [
+				"she",
+				"her"
+			]
+		},
+		"Friar Laurence": {
+			"name": "Friar Laurence",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Benvolio": {
+			"name": "Benvolio",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Mercutio": {
+			"name": "Mercutio",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Tybalt": {
+			"name": "Tybalt",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Paris": {
+			"name": "Paris",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"the Prince": {
+			"name": "the Prince",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Romeo and Juliet": {
+			"name": "Romeo and Juliet",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Montague and Capulet": {
+			"name": "Montague and Capulet",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Romeo and Benvolio": {
+			"name": "Romeo and Benvolio",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Romeo and Mercutio": {
+			"name": "Romeo and Mercutio",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Benvolio and Mercutio": {
+			"name": "Benvolio and Mercutio",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Romeo, Benvolio & Mercutio": {
+			"name": "Romeo, Benvolio & Mercutio",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Friar Laurence, Romeo and Juliet": {
+			"name": "Friar Laurence, Romeo and Juliet",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Romeo and the Nurse": {
+			"name": "Romeo and the Nurse",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Lady Capulet and the Nurse": {
+			"name": "Lady Capulet and the Nurse",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Rosaline and Juliet": {
+			"name": "Rosaline and Juliet",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Gregory and Sampson": {
+			"name": "Gregory and Sampson",
+			"pronoun": [
+				"they",
+				"them"
+			]
+		},
+		"Sampson": {
+			"name": "Sampson",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Abram": {
+			"name": "Abram",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Servingman": {
+			"name": "Servingman",
+			"pronoun": [
+				"he",
+				"him"
+			]
+		},
+		"Rosaline": {
+			"name": "Rosaline",
+			"pronoun": [
+				"she",
+				"her"
+			]
+		}
+	}
+}

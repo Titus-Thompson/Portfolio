@@ -1,0 +1,448 @@
+{
+	"beat": {
+		"part": 1,
+		"beat": 3,
+		"majorQ": [
+			{
+				"text": [
+					"What's troubling Juliet at the beginning of the play?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"What's troubling Juliet at the beginning of the play?"
+						],
+						"topic": [
+							"Juliet"
+						],
+						"answer": [
+							[
+								1302,
+								1311
+							],
+							[
+								1308,
+								1311
+							]
+						],
+						"neighborhood": [
+							[
+								1301,
+								1302,
+								1308,
+								1311
+							]
+						],
+						"type": 1,
+						"response": "While Romeo's conflict is internal, Juliet's conflict comes more from external pressure."
+					}
+				]
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"Contrast Lady Capulet's persuasive tactics with the Nurse's."
+				],
+				"topic": [
+					""
+				],
+				"answer": [
+					[
+						1306,
+						1309,
+						1310
+					]
+				],
+				"neighborhood": [
+					[
+						1304,
+						1306,
+						1308,
+						1309,
+						1310
+					]
+				],
+				"type": 2,
+				"response": "Lady Capulet is more eloquent and fancy in speech because she is noble, but that does not make her more persuasive than the Nurse."
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Capulet tells Paris that his daughter Juliet is almost fourteen and old enough to marry someone"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					1302
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet gives Paris his permission to marry Juliet"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					1301
+				],
+				"b5": [
+					1303
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Capulet goes to talk to Juliet"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Capulet"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1302
+				],
+				"b5": [
+					1307
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse wants to be part of the conversation, too"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1303
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Capulet wants to speak with Juliet alone"
+				],
+				"types": [
+					[
+						"A2"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Capulet"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1303
+				],
+				"b5": [
+					1304
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse tells stories of Juliet to show she knows Juliet better than her own mother"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					1303
+				],
+				"b5": [
+					1304
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Capulet lets the Nurse stay while she speaks with Juliet"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Capulet"
+				],
+				"b2": [
+					"the Nurse"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1303
+				],
+				"b5": [
+					1311
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Cauplet and the Nurse both want Juliet to consider marrying Paris"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Capulet and the Nurse"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1307
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Lady Capulet compares Paris to a beautiful story book without a cover"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Lady Capulet"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1307
+				],
+				"b5": [
+					1308
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse uses body humor to persuade Juliet"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					1307
+				],
+				"b5": [
+					1308
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet isn't too interested in Paris, but she does not refuse him"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					1307
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

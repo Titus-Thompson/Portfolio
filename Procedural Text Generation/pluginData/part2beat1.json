@@ -1,0 +1,551 @@
+{
+	"beat": {
+		"part": 2,
+		"beat": 1,
+		"majorQ": [
+			{
+				"text": [
+					"How does Romeo get invited to the party at the Capulet's?"
+				],
+				"answers": [
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Capulet lets Servingman invite people, and Servingman invites Romeo."
+							]
+						],
+						"data": [
+							[
+								2101,
+								2112
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[K] Servingman asks Romeo to read the party list, and then he invites Romeo, too.",
+								"[H] Servingman needs help from Romeo because he can't read."
+							]
+						],
+						"data": [
+							[
+								2108,
+								2112,
+								2104,
+								2105
+							]
+						]
+					},
+					{
+						"gen": false,
+						"text": [
+							[
+								"[H] Servingman makes a mistake to invite a Montague.",
+								"[K] Capulet lets Servingman invite more people and gives him a list."
+							]
+						],
+						"data": [
+							[
+								2112,
+								2101,
+								2103
+							]
+						]
+					}
+				],
+				"response": "It's essentially a big accident that Romeo gets invited."
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"How does Servingman end up inviting Romeo?"
+				],
+				"topic": [
+					null
+				],
+				"answer": [
+					[
+						2105,
+						2108
+					],
+					[
+						2106,
+						2108
+					]
+				],
+				"neighborhood": [
+					[
+						2103,
+						2104,
+						2105,
+						2106,
+						2107,
+						2108
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"Why does Servingman have the list?"
+				],
+				"topic": [
+					"Servingman"
+				],
+				"answer": [
+					[
+						2103
+					]
+				],
+				"neighborhood": [
+					[
+						2102,
+						2103,
+						2104
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"How does Romeo treat Servingman?"
+				],
+				"topic": [
+					"Romeo"
+				],
+				"answer": [
+					[
+						2109
+					]
+				],
+				"neighborhood": [
+					[
+						2108,
+						2109,
+						2110
+					]
+				],
+				"type": 2,
+				"response": null
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Capulet lets Servingman invite more people to the party"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					" to the party"
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Servingman"
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2102
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet gives a list to Servingman"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					"a list"
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Servingman"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					2101
+				],
+				"b5": [
+					2103
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Capulet tells Servingman to invite people on the list to the party"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					" to the party"
+				],
+				"b1": [
+					"Capulet"
+				],
+				"b2": [
+					"Servingman"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2102
+				],
+				"b5": [
+					2107
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman needs to find someone to read him Capulet's party list"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2103
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman has trouble because he can't read"
+				],
+				"types": [
+					[
+						"A2"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2103
+				],
+				"b5": [
+					2104
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman will invite whoever can read the list for him"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					"the list"
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					2103
+				],
+				"b5": [
+					2104
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman meets Romeo and Benvolio"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					"Romeo and Benvolio"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					2103
+				],
+				"b5": [
+					2108
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman asks Romeo to read the list"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					"the list"
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					2107
+				],
+				"b5": [
+					2109
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo is a little mean to Servingman because he can't read"
+				],
+				"types": [
+					[
+						"A0.",
+						"A5"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Servingman"
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					2108
+				],
+				"b5": [
+					2111
+				],
+				"b6": [
+					2110
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo was just annoyed at Benvolio"
+				],
+				"types": [
+					[
+						"A5",
+						"B61"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Benvolio"
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					2109
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo reads the list"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					"the list"
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					2109
+				],
+				"b5": [
+					2112
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Servingman invites Romeo and Benvolio to the party at Capulet's mansion"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					" to the party [at Capulets mansion]"
+				],
+				"b1": [
+					"Servingman"
+				],
+				"b2": [
+					"Romeo and Benvolio"
+				],
+				"b3": [
+					8
+				],
+				"b4": [
+					2111
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

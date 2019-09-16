@@ -1,0 +1,450 @@
+{
+	"beat": {
+		"part": 4,
+		"beat": 3,
+		"majorQ": [
+			{
+				"text": [
+					"What happens when Romeo and Juliet meet with Friar Laurence that evening?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"What happens when Romeo and Juliet meet with Friar Laurence that evening?"
+						],
+						"topic": [
+							"Friar Laurence, Romeo and Juliet"
+						],
+						"answer": [
+							[
+								4303,
+								4305,
+								4311
+							],
+							[
+								4304,
+								4305,
+								4311
+							]
+						],
+						"neighborhood": [
+							[
+								4301,
+								4302,
+								4303,
+								4304,
+								4305,
+								4306,
+								4311
+							]
+						],
+						"type": 1,
+						"response": "Romeo and Juliet's wedding ceremony is quick and brief, just like their love for each other."
+					}
+				]
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"How does Juliet respond when Romeo asks her to express her love?"
+				],
+				"topic": [
+					"Juliet"
+				],
+				"answer": [
+					[
+						4309,
+						4310
+					]
+				],
+				"neighborhood": [
+					[
+						4307,
+						4308,
+						4309,
+						4310
+					]
+				],
+				"type": 2
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Friar Laurence, Romeo and Juliet all meet at Friar Laurance's"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Friar Laurence, Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					4305
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Friar Laurence wants Romeo and Juliet's love to last"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Friar Laurence"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					4301
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Friar Laurence blesses the wedding with wisdom"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Friar Laurence"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					4301
+				],
+				"b5": [
+					4302
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Friar Laurence warns Romeo about love like fire"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Friar Laurence"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					4301
+				],
+				"b5": [
+					4302
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo says he would die for Juliet"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					4301
+				],
+				"b5": [
+					4306
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo has passion for Juliet, but Friar Laurence tells him to have patience"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					4305
+				],
+				"b5": [
+					4307
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo asks Juliet to express her love for him"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					4306
+				],
+				"b5": [
+					4310
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo wants Juliet's words to leave a deep impression on his heart"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					4307
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo expects Juliet will say something wonderful he will remember forever"
+				],
+				"types": [
+					[
+						"A4"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					4307
+				],
+				"b5": [
+					4308
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet says her true love is more important than words and she loves him more than she can sum up"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					4307
+				],
+				"b5": [
+					4311
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Friar Laurence, Romeo and Juliet all go off for their wedding ceremony"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Friar Laurence, Romeo and Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					4310
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

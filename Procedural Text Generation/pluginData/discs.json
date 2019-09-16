@@ -1,0 +1,1081 @@
+{
+  "A": {
+    "part": 1,
+    "beat": 2,
+    "themes": [
+      "Inner Turmoil & Chaotic Beauty"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 12,
+        "choose": 6,
+        "names": [
+          "[n1]",
+          "[n2]",
+          "[n3]",
+          "[n4]",
+          "[n5]",
+          "[n6]"
+        ],
+        "bank": [
+          "Dry water.",
+          "Soft rock.",
+          "Clean pollution.",
+          "Spicy candy.",
+          "Old baby.",
+          "Quick worm.",
+          "Japanese kimchi.",
+          "Cheesy chocolate.",
+          "Rude appology.",
+          "Dirty soap.",
+          "Hard pudding.",
+          "Empty mess."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 3,
+        "choose": 1,
+        "names": [
+          "[a1]"
+        ],
+        "bank": [
+          "They're confusing.",
+          "They're hard to imagine.",
+          "They're so weird."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[b1]"
+        ],
+        "bank": [
+          "Only Romeo understands them.",
+          "They sound like something, but they're empty."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[x1]"
+        ],
+        "bank": [
+          "Brawling love?",
+          "Loving hate?"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[y1]"
+        ],
+        "bank": [
+          "Serious vanity?",
+          "Bright smoke?"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[z1]"
+        ],
+        "bank": [
+          "Anything of nothing first created.",
+          "That which is not what it is."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "[n1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[n2]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "[n3]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[n4]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "[n5]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[n6]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "Why do you think that is?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[a1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[b1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Both good answers. Remember we're always trying to communicate clearly. Oxymorons get in the way of that.",
+          "speaker": "[T]"
+        }
+      ],
+      [
+        {
+          "line": "Which oxymoron is at the heart of the passage?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[y1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "We're looking for a strong line that ties them all together.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[z1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Better. You could argue for that one.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "Misshapen chaos of well-seeming forms!",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Yes, that's the heart of the passage.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "B": {
+    "part": 4,
+    "beat": 3,
+    "themes": [
+      "Inner Turmoil & Chaotic Beauty",
+      "Wisdom vs. Passion"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 7,
+        "choose": 3,
+        "names": [
+          "[x1]",
+          "[x2]",
+          "[x3]"
+        ],
+        "bank": [
+          "Fire and ice.",
+          "Lightning and thunder.",
+          "Cats and dogs.",
+          "A bomb.",
+          "A firework.",
+          "An earthquake.",
+          "A mosquito and a hot light."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "What are some other metaphors Friar Laurence could have used besides \"fire and powder\"? What are some things that are destructive, or that clash with each other?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[x2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x3]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Those are good. Metaphors like these help us get a clear picture of something abstract like \"immoderate love\".",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "E": {
+    "part": 1,
+    "beat": 2,
+    "themes": [
+      "Blindness"
+    ]
+  },
+  "G": {
+    "part": 1,
+    "beat": 3,
+    "themes": [
+      "Wisdom vs Passion",
+      "Is Love Uncontrolable?"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[x1]"
+        ],
+        "bank": [
+          "She compares Paris to a storybook so that Juliet will dream of him.",
+          "She asks Juliet to make a choice, maybe so she can find someone else if not Paris."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[x2]"
+        ],
+        "bank": [
+          "She wants Juliet to imagine how life would be better together with Paris.",
+          "She uses vocablulary like \"[a1]\" and \"[a2]\" so that Juliet will associate with Paris."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 4,
+        "choose": 2,
+        "names": [
+          "[a1]",
+          "[a2]"
+        ],
+        "bank": [
+          "precious",
+          "beautify",
+          "lover",
+          "pride"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[y1]"
+        ],
+        "bank": [
+          "wax",
+          "a flower"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 3,
+        "choose": 1,
+        "names": [
+          "[y2]"
+        ],
+        "bank": [
+          "no, I'm not in love with Paris!",
+          "thank you but no thank you.",
+          "I don't care about Paris."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 4,
+        "choose": 2,
+        "names": [
+          "[z1]",
+          "[z2]"
+        ],
+        "bank": [
+          "She's not sure what she wants.",
+          "She has to hide her true feelings.",
+          "She won't argue with her mother, Lady Capulet.",
+          "She is trying not to be rude about Paris."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "[x1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x2]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "Let's summarize the conversation and take a wild guess.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "Juliet's mom tells her Paris will be at the ball, and the Nurse tells her that paris is nice like [y1].",
+          "speaker": "[K]"
+        },
+        {
+          "line": "And Juliet says, [y2]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "That's it, you have the right idea.",
+          "speaker": "[T]"
+        }
+      ],
+      [
+        {
+          "line": "[z1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[z2]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Those are both good answers. If you were the actor playing Juliet, you would get to choose.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "F": {
+    "part": 2,
+    "beat": 5,
+    "themes": [
+      "Blindness",
+      "Is Love Uncontrolable?"
+    ],
+    "randomRolls": [
+      {
+        "type": "reader",
+        "names": [
+          "[r0]",
+          "[r1]"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[x1]"
+        ],
+        "bank": [
+          "Friar Laurence, just don't let them get married.",
+          "Nurse, just don't help Juliet."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[y1]"
+        ],
+        "bank": [
+          "Benvolio, help Romeo fall in love with someone else.",
+          "Mercutio, steal Juliet."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "Who has the power to stop tragedy?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[y1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "There's an irony here. When we finish the play we'll revisit the question of who's responsible.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "H": {
+    "part": 2,
+    "beat": 3,
+    "themes": [
+      "The Nature of Fortune"
+    ],
+    "randomRolls": [
+      {
+        "type": "reader",
+        "names": [
+          "[r0]",
+          "[r1]"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 6,
+        "choose": 3,
+        "names": [
+          "[x1]",
+          "[x2]",
+          "[x3]"
+        ],
+        "bank": [
+          "Misgives",
+          "Stars",
+          "Steerage",
+          "Mind",
+          "Consequence",
+          "Vile"
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "What's the keyword in this passage?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1].",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Try again.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x2].",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x3].",
+          "speaker": "[H]"
+        },
+        {
+          "line": "There's a stronger one.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "I": {
+    "part": 4,
+    "beat": 2,
+    "themes": [
+      "The Nature of Fortune",
+      "Flowers & Character Poetry"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 5,
+        "choose": 3,
+        "names": [
+          "[x1]",
+          "[x2]",
+          "[x3]"
+        ],
+        "bank": [
+          "She follows her own will when she's not interested in Paris.",
+          "She's brave, falling in love with her enemy.",
+          "Her passion for Romeo makes her strong.",
+          "She calls Romeo her hawk, and she's his master.",
+          "She's reliable like the sun. She hates the inconstant moon."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 4,
+        "choose": 2,
+        "names": [
+          "[y1]",
+          "[y2]"
+        ],
+        "bank": [
+          "The sun is a symbol for true love.",
+          "Friar Laurence's plants symbolize people.",
+          "Romeo symbolizes freedom for Juliet.",
+          "Friar Laurence symbolizes religion, and the Prince symbolizes government."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[x2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x3]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Those are all great. I encourage you to become what you admire in fictional characters.",
+          "speaker": "[T]"
+        }
+      ],
+      [
+        {
+          "line": "What are some of the other symbols in the play you've picked up on?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[y1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[y2]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Excellent. You girls are showing a deep understanding of the play. Hold on to these ideas because they might be useful for your writing assignment.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "J": {
+    "part": 3,
+    "beat": 1,
+    "themes": [
+      "The Nature of Fortune"
+    ],
+    "randomRolls": [
+      {
+        "type": "reader",
+        "names": [
+          "[r0]",
+          "[r1]"
+        ]
+      }
+    ],
+    "randomText": []
+  },
+  "L": {
+    "part": 3,
+    "beat": 1,
+    "themes": [
+      "Is Love Uncontrolable?"
+    ],
+    "randomRolls": [
+      {
+        "type": "reader",
+        "names": [
+          "[r0]",
+          "[r1]"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 5,
+        "choose": 3,
+        "names": [
+          "[x1]",
+          "[x2]",
+          "[x3]"
+        ],
+        "bank": [
+          "Green lights are called blue lights in Japanese.",
+          "Eating ice cream in December is dissonant.",
+          "Some religions are dissonant.",
+          "C# and G are dissonant notes.",
+          "Korean food is spicy, Japanese food isn't."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[y1]"
+        ],
+        "bank": [
+          "Benvolio, help Romeo fall in love with someone else.",
+          "Mercutio, steal Juliet."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "When people's perceptions don't agree, it's called \"dissonance\". Here's how you spell it - write it down.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "The word comes from music, where it means a group of notes that clash and don't have harmony. So what's dissonant here?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "Romeo belives his love is forever, and other people say his love always changes.",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Precicely. Can you give me some other examples of dissonance?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[x2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x3]",
+          "speaker": "[H]"
+        }
+      ]
+    ]
+  },
+  "M": {
+    "part": 4,
+    "beat": 2,
+    "themes": [
+      "Why Do People Click?"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 4,
+        "choose": 3,
+        "names": [
+          "[x1]",
+          "[x2]",
+          "[x3]"
+        ],
+        "bank": [
+          "They both talk for too long.",
+          "They both like to use rude words.",
+          "They both get on their friends' nerves.",
+          "They both tell stories."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 3,
+        "choose": 2,
+        "names": [
+          "[y1]",
+          "[y2]"
+        ],
+        "bank": [
+          "Mercutio is a young man, and the Nurse is a bit older.",
+          "The Nurse works hard, and Mercutio is lazy.",
+          "Mercutio is a friend of the Montagues, and the Nurse is a friend of the Capulets."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 3,
+        "choose": 2,
+        "names": [
+          "[z1]",
+          "[z2]"
+        ],
+        "bank": [
+          "Mercutio pushes her button.",
+          "He makes her stomach turn.",
+          "She gets red."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "What do the Nurse and Mercutio have in common?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x2]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "Sure. Anything else?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[x3]",
+          "speaker": "[K]"
+        }
+      ],
+      [
+        {
+          "line": "How are the Nurse and Mercutio different?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[y1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Anything else?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[y2]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "This is what you call an overreaction. The Nurse goes on for a long time about how annoyed she is at a boy she just met. Why?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[z1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Mm hmm.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[z2]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "You're very close. What's going on?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "Ah! She secretly likes Mercutio.",
+          "speaker": "[K]"
+        },
+        {
+          "line": "Yes. That seems like a great interpretation.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  },
+  "N": {
+    "part": 4,
+    "beat": 1,
+    "themes": [
+      "Inner Turmoil & Chaotic Beauty",
+      "Flowers & Character Poetry"
+    ],
+    "randomRolls": [
+      {
+        "type": "choose",
+        "of": 8,
+        "choose": 2,
+        "names": [
+          "[x1]",
+          "[x2]"
+        ],
+        "bank": [
+          "scary",
+          "curious",
+          "wise",
+          "kind",
+          "godly",
+          "deep",
+          "harsh",
+          "respectful"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 5,
+        "choose": 2,
+        "names": [
+          "[a1]",
+          "[a2]"
+        ],
+        "bank": [
+          "Tokyo feels like home, but I miss Korea.",
+          "America is West but you have to go east.",
+          "The sun brings life, but if you touch it you'll die.",
+          "Warm summer is my favorite because that's when cold ice cream goes best.",
+          "Beautiful words can be too distracting to really understand."
+
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 6,
+        "choose": 2,
+        "names": [
+          "[b1]",
+          "[b2]"
+        ],
+        "bank": [
+          "Blank verse.",
+          "Catching a breath.",
+          "Rare earth.",
+          "Soft power.",
+          "New history.",
+          "Living legend."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "What kind of person is Friar Laurence?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "^[x1].^",
+          "speaker": "[K]"
+        },
+        {
+          "line": "^[x2].^",
+          "speaker": "[H]"
+        },
+        {
+          "line": "^[x1]-[x2]!^",
+          "speaker": "[K]"
+        }
+      ],
+      [
+        {
+          "line": "A paradox is a contradiction that reveals truth. Give me a paradox.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[a1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[a2]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "A paradox is like irony, but on a higher level. You girls remember irony, yes? Give me a paradox.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[a1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[a2]",
+          "speaker": "[H]"
+        }
+      ],
+      [
+        {
+          "line": "A paradox is like an oxymoron, but meaningful. You girls remember oxymorons, yes? Give me a paradox.",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[b1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[b2]",
+          "speaker": "[H]"
+        }
+      ]
+    ]
+  },
+  "O": {
+    "part": 3,
+    "beat": 1,
+    "themes": [
+      "Flowers & Character Poetry"
+    ],
+    "randomRolls": [
+      {
+        "type": "reader",
+        "names": [
+          "[r0]",
+          "[r1]"
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 2,
+        "choose": 1,
+        "names": [
+          "[x1]"
+        ],
+        "bank": [
+          "Rome.",
+          "Romantic."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 4,
+        "choose": 2,
+        "names": [
+          "[y1]",
+          "[y2]"
+        ],
+        "bank": [
+          "Rodeo.",
+          "Meow.",
+          "Alone.",
+          "Wrote."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 8,
+        "choose": 4,
+        "names": [
+          "[z1]",
+          "[z2]",
+          "[z3]",
+          "[z4]"
+        ],
+        "bank": [
+          "Consonants and vowels.",
+          "Identity.",
+          "Sometimes meaning.",
+          "A connection with other people with the same name.",
+          "A reason for the name.",
+          "A first impression.",
+          "A gift from mom and dad.",
+          "Something special."
+        ]
+      },
+      {
+        "type": "choose",
+        "of": 5,
+        "choose": 4,
+        "names": [
+          "[t1]",
+          "[t2]",
+          "[t3]",
+          "[t4]"
+        ],
+        "bank": [
+          "Tulip.",
+          "Sunflower.",
+          "Daisy.",
+          "Lily.",
+          "Hibiscus."
+        ]
+      }
+    ],
+    "randomText": [
+      [
+        {
+          "line": "[y1]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[x1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[y2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "How about \"emotional\"?",
+          "speaker": "[T]"
+        }
+      ],
+      [
+        {
+          "line": "[z1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[z2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[z3]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[z4]",
+          "speaker": "[K]"
+        }
+      ],
+      [
+        {
+          "line": "What other flowers can you name?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "[t1]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[t2]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "[t3]",
+          "speaker": "[H]"
+        },
+        {
+          "line": "[t4]",
+          "speaker": "[K]"
+        },
+        {
+          "line": "That's great. And how do these names compare to \"rose\"? Which name do you think is the prettiest?",
+          "speaker": "[T]"
+        },
+        {
+          "line": "Rose.",
+          "speaker": "[K]"
+        },
+        {
+          "line": "I think \"rose\" is prettiest.",
+          "speaker": "[H]"
+        },
+        {
+          "line": "I would have to agree.",
+          "speaker": "[T]"
+        }
+      ]
+    ]
+  }
+}

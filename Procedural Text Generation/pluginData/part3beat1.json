@@ -1,0 +1,566 @@
+{
+	"beat": {
+		"part": 3,
+		"beat": 1,
+		"minorQ": [
+			{
+				"text": [
+					"What are some of the metaphors Romeo and Juliet use to describe each other?"
+				],
+				"topic": [
+					null
+				],
+				"answer": [
+					[
+						"3102",
+						"3112"
+					]
+				],
+				"neighborhood": [
+					[
+						"3101",
+						"3102",
+						"3103",
+						"3112",
+						"3113",
+						"3114"
+					]
+				],
+				"type": 2,
+				"response": "These metaphors tell us as much about the character making them as the one they describe. Romeo pictures Juliet as an ball of energy, and Juliet imagines Romeo as a beautiful feathered animal."
+			},
+			{
+				"text": [
+					"How does Juliet justify falling in love with Juliet, a Montague?"
+				],
+				"topic": [
+					"Servingman"
+				],
+				"answer": [
+					[
+						"3104",
+						"3105"
+					]
+				],
+				"neighborhood": [
+					[
+						"3104",
+						"3105",
+						"3106"
+					]
+				],
+				"type": 2,
+				"response": "Juliet reasons one thing about a rose and applies that reasoning to Romeo. This is a great example of an analogy."
+			},
+			{
+				"text": [
+					"What happens when Romeo tries to promise his love to Juliet?"
+				],
+				"topic": [
+					"Romeo"
+				],
+				"answer": [
+					[
+						"3107",
+						"3108"
+					],
+					[
+						"3107",
+						"3108",
+						"3109",
+						"3110"
+					]
+				],
+				"neighborhood": [
+					[
+						"3107",
+						"3108",
+						"3109",
+						"3110",
+						"3111"
+					]
+				],
+				"type": 2,
+				"response": "Both the sun and moon are used as symbols in this famous scene."
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo sneaks into Juliet's courtyard"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					"3102"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo compares Juliet to the sun"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					"3101"
+				],
+				"b5": [
+					"3103"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo talks about the stars in heaven and how Juliet shines brighter than them"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					"3102"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet says a rose's name does not make it smell sweet"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					"3105"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet argues Romeo is perfect no matter if he's a Montague or not"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					"3104"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet needs to find a reason she and Romeo can be together"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					"3105"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo wants to prove his love to Juliet, so he swears on the moon"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					8
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					"3108"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet tells Romeo not to swear on the moon because it always changes"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					"3107"
+				],
+				"b5": [
+					"3109"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo swears his love to Juliet for a second time on his own self"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					10
+				],
+				"b4": [
+					"3108"
+				],
+				"b5": [
+					"3110"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet refuses Romeo's promise twice because it's too soon"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					11
+				],
+				"b4": [
+					"3109"
+				],
+				"b5": [
+					"3111"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet is called away by the Nurse"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"the Nurse"
+				],
+				"b3": [
+					12
+				],
+				"b4": [
+					"3110"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Juliet compares Romeo to a falcon with her his master"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					14
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					"3114"
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Maybe Juliet wants to tame Romeo because she knows how wild his heart is"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Juliet"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					14
+				],
+				"b4": [
+					"3112"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo says he wishes he were Juliet's bird"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					"3112"
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}

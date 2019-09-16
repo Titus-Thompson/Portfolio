@@ -1,0 +1,834 @@
+{
+	"beat": {
+		"part": 4,
+		"beat": 2,
+		"majorQ": [
+			{
+				"text": [
+					"What kind of character dynamics come out when the Nurse meets up with Romeo, Benvolio and Mercutio?"
+				],
+				"answers": [
+					{
+						"gen": true,
+						"text": [
+							"What kind of character dynamics come out when the Nurse meets up with Romeo, Benvolio and Mercutio?"
+						],
+						"topic": [
+							null
+						],
+						"answer": [
+							[
+								4201,
+								4203,
+								4205,
+								4210
+							]
+						],
+						"neighborhood": [
+							[
+								4201,
+								4202,
+								4203,
+								4204,
+								4205,
+								4206,
+								4207,
+								4208,
+								4209,
+								4210,
+								4211
+							]
+						],
+						"type": 1,
+						"response": "Characters who know each other well, like Romeo, Benvolio & Mercutio, often have clear dynamics, but sometimes interesting interactions happen between characters who just met, too."
+					}
+				]
+			}
+		],
+		"minorQ": [
+			{
+				"text": [
+					"What business does the Nurse have with Romeo?"
+				],
+				"topic": [
+					"Friar Laurence"
+				],
+				"answer": [
+					[
+						4212,
+						4213,
+						4215
+					],
+					[
+						4212,
+						4213,
+						4215,
+						4217,
+						4219,
+						4221
+					]
+				],
+				"neighborhood": [
+					[
+						4212,
+						4213,
+						4214,
+						4215,
+						4216,
+						4217,
+						4218,
+						4219,
+						4220,
+						4221
+					]
+				],
+				"type": 2,
+				"response": null
+			},
+			{
+				"text": [
+					"What do you make of the next bit, where Romeo growls at the Nurse?"
+				],
+				"topic": [
+					""
+				],
+				"answer": [
+					[
+						4217,
+						4218,
+						4220
+					]
+				],
+				"neighborhood": [
+					[
+						4215,
+						4216,
+						4217,
+						4218,
+						4219,
+						4220
+					]
+				],
+				"type": 2,
+				"response": "There could be a few interpretations of this line, but in any case it characterizes Romeo. Of course, the interpretation would mainly be up to the actor playing Romeo."
+			}
+		],
+		"bits": [
+			{
+				"text": [
+					"Romeo and Mercutio make jokes with each other"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					1
+				],
+				"b4": [
+					null
+				],
+				"b5": [
+					4202
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Mercutio complements Romeo's wit, but Romeo does not respect Mercutio's"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					2
+				],
+				"b4": [
+					4201
+				],
+				"b5": [
+					4103
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio tells Romeo and Mercutio to quit making jokes"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio"
+				],
+				"b2": [
+					"Romeo and Mercutio"
+				],
+				"b3": [
+					3
+				],
+				"b4": [
+					4202
+				],
+				"b5": [
+					4204
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse shows up"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					4
+				],
+				"b4": [
+					4203
+				],
+				"b5": [
+					4205
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Mercutio makes a rude joke about the time"
+				],
+				"types": [
+					[
+						"A0"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					5
+				],
+				"b4": [
+					4204
+				],
+				"b5": [
+					4206
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse gets angry at Mercutio"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Mercutio"
+				],
+				"b3": [
+					6
+				],
+				"b4": [
+					4205
+				],
+				"b5": [
+					4207
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse asks to speak to Romeo"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					7
+				],
+				"b4": [
+					4206
+				],
+				"b5": [
+					4208
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Benvolio and Mercutio leave"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Benvolio and Mercutio"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					8
+				],
+				"b4": [
+					4207
+				],
+				"b5": [
+					4209
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse complains to Romeo about Mercutio"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					9
+				],
+				"b4": [
+					4208
+				],
+				"b5": [
+					4210
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo says Mercutio loves to hear himself talk"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					10
+				],
+				"b4": [
+					4209
+				],
+				"b5": [
+					4211
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse threatens Mercutio for flirting with her"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Mercutio"
+				],
+				"b3": [
+					11
+				],
+				"b4": [
+					4210
+				],
+				"b5": [
+					4212
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse asks Romeo if he wants to marry Juliet"
+				],
+				"types": [
+					[
+						"A0+"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					12
+				],
+				"b4": [
+					4211
+				],
+				"b5": [
+					4213
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo tells the Nurse he will marry Juliet that afternoon at the Friar's"
+				],
+				"types": [
+					[
+						"A0-"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"the Nurse"
+				],
+				"b3": [
+					13
+				],
+				"b4": [
+					4212
+				],
+				"b5": [
+					4214
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo gives the Nurse some money for her help"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"the Nurse"
+				],
+				"b3": [
+					14
+				],
+				"b4": [
+					4213
+				],
+				"b5": [
+					4215
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo and the Nurse talk about Juliet's choice to marry Romeo"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo and the Nurse"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4214
+				],
+				"b5": [
+					4221
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse wants to express her own opinion"
+				],
+				"types": [
+					[
+						"A1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4215
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse tells Romeo that she thinks Paris would be a better match for Juliet"
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Romeo"
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4215
+				],
+				"b5": [
+					4216
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo wants to show off"
+				],
+				"types": [
+					[
+						"A1",
+						"B6_1"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4214
+				],
+				"b5": [
+					4215
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"Romeo says, \"Rrrrrr\""
+				],
+				"types": [
+					[
+						"A3"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					""
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4215
+				],
+				"b5": [
+					4218
+				],
+				"b6": [
+					4218
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"maybe Romeo feels jealous of Paris"
+				],
+				"types": [
+					[
+						"A9"
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"Romeo"
+				],
+				"b2": [
+					"Paris"
+				],
+				"b3": [
+					15
+				],
+				"b4": [
+					4219
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			},
+			{
+				"text": [
+					"the Nurse runs off to tell Juliet to meet Romeo at the Friar's"
+				],
+				"types": [
+					[
+						"A0."
+					]
+				],
+				"b0": [
+					""
+				],
+				"b1": [
+					"the Nurse"
+				],
+				"b2": [
+					"Juliet"
+				],
+				"b3": [
+					16
+				],
+				"b4": [
+					4215
+				],
+				"b5": [
+					null
+				],
+				"b6": [
+					null
+				],
+				"trigger": [
+					null
+				]
+			}
+		]
+	}
+}
